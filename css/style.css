@@ -2,14 +2,14 @@
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    src: url("fonts/OpenSans-Regular.woff");
+    src: url("../fonts/OpenSans-Regular.woff");
   }
   
   @font-face {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 700;
-    src: url("fonts/OpenSans-Bold.woff");
+    src: url("../fonts/OpenSans-Bold.woff");
   }
   
   * {
@@ -259,7 +259,6 @@
     line-height: 1.2;
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
   }
 
   .trend__content-title-link {
@@ -344,7 +343,6 @@
     line-height: 1.2;
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
   }
   
   .last-post__title-link {
@@ -439,7 +437,6 @@
     line-height: 1.2;
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
   }
   
   .new-post__content-title-link {
@@ -796,7 +793,6 @@
     border: none;
     background-color: #b59f5b;
     padding: 0.9em 1.8em;
-    letter-spacing: 0.5px;
     font-family: inherit;
     color: white;
     font-size: 14px;
@@ -1051,7 +1047,6 @@
     color: white;
     font-size: 14px;
     font-weight: bold;
-    letter-spacing: 0.5px;
     text-transform: uppercase;
     cursor: pointer;
   }
