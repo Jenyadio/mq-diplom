@@ -36,7 +36,7 @@
   
   .header {
     width: 100%;
-    background-image: url(/images/banner-bg.jpg);
+    background-image: url(images/banner-bg.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -198,19 +198,19 @@
   }
 
   .trend-first {
-    background-image: url(/images/trend1.jpg);  
+    background-image: url(images/trend1.jpg);  
   }
 
   .trend-second {
-    background-image: url(/images/trend2.jpg);
+    background-image: url(images/trend2.jpg);
   }
 
   .trend-third {
-    background-image: url(/images/trend3.jpg);
+    background-image: url(images/trend3.jpg);
   }
 
   .trend-fourth {
-    background-image: url(/images/trend4.jpg);
+    background-image: url(images/trend4.jpg);
   }
 
   .trend::after {
@@ -487,7 +487,7 @@
     height: 48px;
     border: none;
     
-    background-image: url("/svg/search.svg");
+    background-image: url("svg/search.svg");
     background-color: #b59f5b;
     background-size: 20px 20px;
     background-repeat: no-repeat;
@@ -850,23 +850,23 @@
   }
   
   .socials__link-twitter {
-    background-image: url("/svg/004-twitter.svg");
+    background-image: url("svg/004-twitter.svg");
   }
   
   .socials__link-pinterest {
-    background-image: url("/svg/001-pinterest.svg");
+    background-image: url("svg/001-pinterest.svg");
   }
   
   .socials__link-facebook {
-    background-image: url("/svg/002-facebook-logo.svg");
+    background-image: url("svg/002-facebook-logo.svg");
   }
   
   .socials__link-instagram {
-    background-image: url("/svg/005-instagram.svg");
+    background-image: url("svg/005-instagram.svg");
   }
   
   .socials__link-tumblr {
-    background-image: url("/svg/003-tumblr.svg");
+    background-image: url("svg/003-tumblr.svg");
   }
   
   .socials__link:hover, .socials__link:focus, .socials__link:active {
@@ -990,7 +990,7 @@
     -webkit-appearance: none;
     -moz-appearance: none;
     
-    background-image: url(/svg/form-arrows.svg);
+    background-image: url(svg/form-arrows.svg);
     background-repeat: no-repeat;
     background-position: right 10px center;
     background-size: 10px;
@@ -1013,7 +1013,7 @@
     width: 16px;
     height: 16px;
 
-    background-image:url("/svg/form-empty-circle.svg");
+    background-image:url("svg/form-empty-circle.svg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 16px;
@@ -1021,7 +1021,7 @@
   }
 
   .radio:checked ~ .feedback__radio-group-text::before {
-    background-image: url("/svg/form-circle.svg");
+    background-image: url("svg/form-circle.svg");
   }
 
   .radio {
@@ -1101,7 +1101,7 @@
     }
 
     .header {
-      background-image: url("/images/banner-bg-tablet.jpg");
+      background-image: url("images/banner-bg-tablet.jpg");
     }
 
     .header__title {
