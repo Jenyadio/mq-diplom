@@ -1193,7 +1193,7 @@
   }
 
 
-  @media (min-width: 768px) and (orientation: landscape) {
+  @media (min-width: 1024px) and (orientation: landscape) {
     .trend {
       width: calc(25% - 5px);
     }
@@ -1352,7 +1352,7 @@
     }    
   }
 
-  @media (min-width: 641px) and (orientation: landscape) {
+  @media (max-width: 767px) and (orientation: landscape) {
     .trend {
       width: calc(50% - 5px);
     }
