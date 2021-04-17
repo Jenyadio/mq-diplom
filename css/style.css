@@ -387,10 +387,6 @@
   
   /* Aside new-posts styles start */
   
-  .aside {
-    max-width: 270px;
-  }
-  
   .new-posts__title {
     margin: 0 auto 15%;
     text-align: center;
@@ -1192,18 +1188,6 @@
     }
   }
 
-
-  @media (min-width: 1024px) and (orientation: landscape) {
-    .trend {
-      width: calc(25% - 5px);
-    }
-
-    .trend-second {
-      margin-right: 5px;
-    }
-  }
-
-
   @media (max-width: 640px) {
     .header {
       background-image: url(../images/banner-mobile.jpg);
@@ -1217,33 +1201,23 @@
       width: 275px;
       position: absolute;
       top: 35%;
-      left: 11%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
     }
 
     .header__title {
-      font-size: 1.625em;
-      padding-bottom: 70%;
-      margin-top: 88.5%;
-    }
-
-    .trends__title {
-      font-size: 1em;
-      margin: 10% 0 7%;
+      font-size: 26px;
+      padding-bottom: 210px;
+      margin-top: 265px;
     }
 
     .trend {
       width: 100%;
       margin-bottom: 5px;
       margin-right: 0;
-      padding: 25% 4% 4%;
-    }
-
-    .trend__content-title {
-      font-size: 1em;
-    }
-
-    .trend__content {
-      padding: 7%;
+      padding: 10% 4% 4%;
     }
 
     .wrapper__main-aside {
@@ -1273,16 +1247,18 @@
       background-color: #eeeeee;
     }
 
+    .last-post__pic {
+      width: 100%;
+      margin-right: 0;
+    }
+
     .last-post__img {
-      width: 330px;
+      width: 100%;
+      max-width: 100%;
     }
 
     .last-post__list {
       margin-top: 4%;
-    }
-
-    .last-post__title {
-      font-size: 1em;
     }
 
     .last-post__subtitle {
@@ -1291,12 +1267,6 @@
 
     .aside {
       width: 100%;
-      max-width: 1170px;
-    }
-
-    .new-posts__title {
-      font-size: 1em;
-      margin: 0 auto 10%;
     }
 
     .new-post:last-of-type {
@@ -1311,36 +1281,16 @@
       margin-bottom: 12%;
     }
 
-    .subscription__group-title {
-      font-size: 1em;
-    }
-
     .tags__group {
       margin-bottom: 12%;
-    }
-
-    .tags__group-title {
-      font-size: 1em;
-    }
-
-    .themes__group-title {
-      font-size: 1em;
     }
 
     .products__wrapper {
       justify-content: center;
     }
 
-    .products__title {
-      font-size: 16px;
-    }
-
     .product {
       margin-bottom: 15%;
-    }
-
-    .product__content-title-link {
-      font-size: 0.9em;
     }
 
     .footer {
@@ -1349,16 +1299,14 @@
 
     .socials__group {
       margin-bottom: 11%;
-    }    
-  }
-
-  @media (max-width: 767px) and (orientation: landscape) {
-    .trend {
-      width: calc(50% - 5px);
-    }
-
-    .trend-second {
-      margin-right: 0;
     }
   }
+    
+  @media (min-width: 1200px) {
+    .aside {
+      max-width: 270px;
+    }
+  }
+  
+
   /* Media end */
